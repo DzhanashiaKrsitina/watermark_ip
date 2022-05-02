@@ -1,0 +1,18 @@
+open_system('Watermarker');
+open_system('gm_Watermarker');
+cs.HiliteType = 'user1';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'cyan';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_Watermarker/watermarking/Indexing/ROM Template 0/Direct Lookup Table (n-D)', 'user1');
+annotate_port('gm_Watermarker/watermarking/Indexing/ROM Template 0/Direct Lookup Table (n-D)', 0, 1, 'Lookup Table mapped to RAM');
+hilite_system('Watermarker/watermarking/Indexing/ROM Template 0/Direct Lookup Table (n-D)', 'user1');
+annotate_port('Watermarker/watermarking/Indexing/ROM Template 0/Direct Lookup Table (n-D)', 0, 1, 'Lookup Table mapped to RAM');
+cs.HiliteType = 'user1';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'cyan';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_Watermarker/watermarking/Indexing/ROM Template 1/Direct Lookup Table (n-D)', 'user1');
+annotate_port('gm_Watermarker/watermarking/Indexing/ROM Template 1/Direct Lookup Table (n-D)', 0, 1, 'Lookup Table mapped to RAM');
+hilite_system('Watermarker/watermarking/Indexing/ROM Template 1/Direct Lookup Table (n-D)', 'user1');
+annotate_port('Watermarker/watermarking/Indexing/ROM Template 1/Direct Lookup Table (n-D)', 0, 1, 'Lookup Table mapped to RAM');

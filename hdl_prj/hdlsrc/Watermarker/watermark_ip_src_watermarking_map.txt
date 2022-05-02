@@ -1,0 +1,9 @@
+ --> watermark_ip_src_watermarking_pac
+Watermarker/watermarking/Indexing/Index Definer/Bit Divider Inner --> watermark_ip_src_Bit_Divider_Inner
+Watermarker/watermarking/Indexing/Index Definer/Bit Divider Outer --> watermark_ip_src_Bit_Divider_Outer
+Watermarker/watermarking/Indexing/Index Definer --> watermark_ip_src_Index_Definer
+Watermarker/watermarking/Indexing/ROM Template 0 --> watermark_ip_src_ROM_Template_0
+Watermarker/watermarking/Indexing/ROM Template 1 --> watermark_ip_src_ROM_Template_1
+Watermarker/watermarking/Indexing/SimpleDualPortRAM_singlebit --> watermark_ip_src_SimpleDualPortRAM_singlebit
+Watermarker/watermarking/Indexing --> watermark_ip_src_Indexing
+Watermarker/watermarking --> watermark_ip_src_watermarking
