@@ -48,15 +48,15 @@
  <div class="page_container"><div class="content_frame">
 <h1>HDL Code Generation Check Report for 'Watermarker/watermarking'
 <a href="matlab:open_system('Watermarker/watermarking');">open model 'Watermarker/watermarking'</a><BR>
-Generated on 2022-05-03 00:49:38</h1>
-<H2>HDL check for 'Watermarker' complete with 0 errors, 0 warnings, and 3 messages.</H2><BR>
+Generated on 2022-05-12 17:02:04</h1>
+<H2>HDL check for 'Watermarker' complete with 0 errors, 1 warnings, and 4 messages.</H2><BR>
 <H3>The following table describes blocks for which errors, warnings or messages were reported.</H3><BR>
 <TABLE>
 <TR><TD> <B>Simulink Blocks and resources</B> </TD><TD> <B>Level</B> </TD><TD> <B>Description</B> </TD></TR><TR bgcolor="#F0F0F0"><TD>
-<a alt="hdlcoder:workflow:AdaptivePipelineOffMessage" href="matlab:hilite(get_param(char([87 97 116 101 114 109 97 114 107 101 114]),'object'),'none');open_system(char([87 97 116 101 114 109 97 114 107 101 114]))">Watermarker</a>
+<a alt="hdlcoder:validate:IgnoreParamsOnSettingCodingStandardsToIndustry" href="matlab:hilite(get_param(char([87 97 116 101 114 109 97 114 107 101 114]),'object'),'none');open_system(char([87 97 116 101 114 109 97 114 107 101 114]))">Watermarker</a>
 </TD>
-<TD>Message</TD>
-<TD><a href="matlab:configset.internal.open('Watermarker','AdaptivePipelining')">'AdaptivePipelining'</a> is set to 'Off' for the model. 'AdaptivePipelining' can improve the achievable clock frequency and reduce the area usage on FPGA boards. To enable adaptive pipelining, please set the option to 'On'. When adaptive pipelining is enabled, it inserts pipeline registers to create patterns that efficiently map blocks to DSP units on the target FPGA device.</TD>
+<TD>Warning</TD>
+<TD>Parameter 'MinimizeClockEnables, MinimizeGlobalResets' will be ignored in Watermarker when the 'HDL Coding Standard' is set to 'Industry'.</TD>
 </TR>
 <TR bgcolor="#FFFFFF"><TD>
 <a alt="hdlcoder:workflow:LUTMapToRAMOffMessage" href="matlab:hilite(get_param(char([87 97 116 101 114 109 97 114 107 101 114]),'object'),'none');open_system(char([87 97 116 101 114 109 97 114 107 101 114]))">Watermarker</a>
@@ -65,10 +65,22 @@ Generated on 2022-05-03 00:49:38</h1>
 <TD><a href="matlab:configset.internal.open('Watermarker','LUTMapToRAM')">'LUTMapToRAM'</a> is set to 'On' for the model. This option is used to map lookup tables to a block RAM in hardware.  To disable pipeline insertion for mapping lookup tables to RAM, please set the option to 'Off'.</TD>
 </TR>
 <TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:hdldisp:GeneratingCPEHiliteScript" href="matlab:run('hdl_prj\hdlsrc\Watermarker\criticalPathEstimated')">hdl_prj\hdlsrc\Watermarker\criticalPathEstimated.m</a>
+</TD>
+<TD>Message</TD>
+<TD>Estimated critical path for design: <a href="matlab:run('hdl_prj\hdlsrc\Watermarker\criticalPathEstimated')">hdl_prj\hdlsrc\Watermarker\criticalPathEstimated.m</a></TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
 <a alt="hdlcoder:hdldisp:GeneratingLUTPipeliningDiagnosticHiliteScript" href="matlab:run('hdl_prj\hdlsrc\Watermarker\highlightLUTPipeliningDiagnostic')">hdl_prj\hdlsrc\Watermarker\highlightLUTPipeliningDiagnostic.m</a>
 </TD>
 <TD>Message</TD>
 <TD>To highlight look up tables mapped to RAM, click the following MATLAB script: <a href="matlab:run('hdl_prj\hdlsrc\Watermarker\highlightLUTPipeliningDiagnostic')">hdl_prj\hdlsrc\Watermarker\highlightLUTPipeliningDiagnostic.m</a></TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:hdldisp:GeneratingBlocksWithNoCharacterizationHighlightScript" href="matlab:run('hdl_prj\hdlsrc\Watermarker\highlightCriticalPathEstimationOffendingBlocks')">hdl_prj\hdlsrc\Watermarker\highlightCriticalPathEstimationOffendingBlocks.m</a>
+</TD>
+<TD>Message</TD>
+<TD>Blocks that are not characterized for Critical Path Estimation: <a href="matlab:run('hdl_prj\hdlsrc\Watermarker\highlightCriticalPathEstimationOffendingBlocks')">hdl_prj\hdlsrc\Watermarker\highlightCriticalPathEstimationOffendingBlocks.m</a></TD>
 </TR>
 </TABLE>
 <BR><BR> </div></div></div></div>

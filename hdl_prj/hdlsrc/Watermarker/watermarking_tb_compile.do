@@ -1,0 +1,12 @@
+vlib work
+vcom  watermarking_pac.vhd
+vcom  Bit_Divider_Inner.vhd
+vcom  Bit_Divider_Outer.vhd
+vcom  Index_Definer.vhd
+vcom  ROM_Template_0.vhd
+vcom  ROM_Template_1.vhd
+vcom  SimpleDualPortRAM_singlebit.vhd
+vcom  Indexing.vhd
+vcom  watermarking.vhd
+vcom  watermarking_tb_pac.vhd
+vcom  watermarking_tb.vhd

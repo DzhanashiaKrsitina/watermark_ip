@@ -1,0 +1,121 @@
+# Reading C:/modeltech64_10.5/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do compile_and_launch.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:54:36 on May 12,2022
+# vcom -reportprogress 300 Bit_Divider_Inner.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Bit_Divider_Inner
+# -- Compiling architecture rtl of Bit_Divider_Inner
+# End time: 16:54:36 on May 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:54:36 on May 12,2022
+# vcom -reportprogress 300 Bit_Divider_Outer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Bit_Divider_Outer
+# -- Compiling architecture rtl of Bit_Divider_Outer
+# End time: 16:54:36 on May 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:54:36 on May 12,2022
+# vcom -reportprogress 300 Index_Definer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Index_Definer
+# -- Compiling architecture rtl of Index_Definer
+# -- Loading entity Bit_Divider_Outer
+# -- Loading entity Bit_Divider_Inner
+# End time: 16:54:36 on May 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:54:37 on May 12,2022
+# vcom -reportprogress 300 ROM_Template_0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_Template_0
+# -- Compiling architecture rtl of ROM_Template_0
+# End time: 16:54:37 on May 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:54:37 on May 12,2022
+# vcom -reportprogress 300 ROM_Template_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_Template_1
+# -- Compiling architecture rtl of ROM_Template_1
+# End time: 16:54:37 on May 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:54:37 on May 12,2022
+# vcom -reportprogress 300 SimpleDualPortRAM_singlebit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SimpleDualPortRAM_singlebit
+# -- Compiling architecture rtl of SimpleDualPortRAM_singlebit
+# End time: 16:54:37 on May 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:54:37 on May 12,2022
+# vcom -reportprogress 300 Indexing.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Indexing
+# -- Compiling architecture rtl of Indexing
+# -- Loading entity Index_Definer
+# -- Loading entity ROM_Template_0
+# -- Loading entity ROM_Template_1
+# -- Loading entity SimpleDualPortRAM_singlebit
+# End time: 16:54:37 on May 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:54:37 on May 12,2022
+# vcom -reportprogress 300 watermarking.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity watermarking
+# -- Compiling architecture rtl of watermarking
+# -- Loading entity Indexing
+# End time: 16:54:37 on May 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ns
+# 
+# Ready for cosimulation...
+# Running Simulink Cosimulation block.
+# Chip Name: --> Watermarker/watermarking
+# Target language: --> vhdl
+# Target directory: --> hdl_prjhdlsrcWatermarker
+# Thu May 12 16:55:37 AST 2022
+# done
+# Simulation halt requested by foreign interface.
