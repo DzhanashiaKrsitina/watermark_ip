@@ -1,0 +1,28 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: G:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 6b2a4671fa8147929936062e8a3fc469 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot watermark_ip_behav xil_defaultlib.watermark_ip -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_reset_sync [watermark_ip_reset_sync_default]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_src_Bit_Divider_block [watermark_ip_src_bit_divider_blo...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_src_Bit_Divider [watermark_ip_src_bit_divider_def...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_src_Index_Defin [watermark_ip_src_index_defin_def...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_src_ROM_Templat [watermark_ip_src_rom_templat_def...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_src_ROM_Templat_block [watermark_ip_src_rom_templat_blo...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_src_SimpleDualP [\watermark_ip_src_SimpleDualP(ad...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_src_Indexing [watermark_ip_src_indexing_defaul...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_src_waterma [watermark_ip_src_waterma_default]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_dut [watermark_ip_dut_default]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_addr_decoder [watermark_ip_addr_decoder_defaul...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_axi_lite_module [watermark_ip_axi_lite_module_def...]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip_axi_lite [watermark_ip_axi_lite_default]
+Compiling architecture rtl of entity xil_defaultlib.watermark_ip
+Built simulation snapshot watermark_ip_behav

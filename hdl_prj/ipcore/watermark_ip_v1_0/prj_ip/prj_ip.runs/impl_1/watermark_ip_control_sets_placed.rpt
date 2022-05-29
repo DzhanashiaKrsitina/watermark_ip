@@ -1,0 +1,76 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 12 19:56:27 2022
+| Host         : DESKTOP-JVKF44N running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file watermark_ip_control_sets_placed.rpt
+| Design       : watermark_ip
+| Device       : xc7z020
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    10 |
+| Unused register locations in slices containing registers |    28 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              18 |            9 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               5 |            2 |
+| Yes          | No                    | Yes                    |              93 |           34 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+----------------------------------------------------------------------+-------------------------------------------------------------------+------------------+----------------+
+|        Clock Signal       |                             Enable Signal                            |                          Set/Reset Signal                         | Slice Load Count | Bel Load Count |
++---------------------------+----------------------------------------------------------------------+-------------------------------------------------------------------+------------------+----------------+
+|  IPCORE_CLK_IBUF_BUFG     |                                                                      | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/reset_in |                1 |              2 |
+|  AXI4_Lite_ACLK_IBUF_BUFG |                                                                      | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/rstx     |                3 |              5 |
+|  IPCORE_CLK_IBUF_BUFG     | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_addr_decoder_i/dut_enable  |                                                                   |                3 |              7 |
+|  AXI4_Lite_ACLK_IBUF_BUFG | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/w_transfer  | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/rstx     |                2 |              8 |
+|  AXI4_Lite_ACLK_IBUF_BUFG | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/E[0]        | Uwatermark_ip_reset_sync_ins/AR[0]                                |                2 |              8 |
+|  IPCORE_CLK_IBUF_BUFG     | Uwatermark_ip_dut_inst/Uwatermark_ip_src_waterma/UIndexing/outer     | Uwatermark_ip_reset_sync_ins/AR[0]                                |                2 |              8 |
+|  AXI4_Lite_ACLK_IBUF_BUFG |                                                                      | Uwatermark_ip_reset_sync_ins/AR[0]                                |                5 |             11 |
+|  AXI4_Lite_ACLK_IBUF_BUFG | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/aw_transfer | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/rstx     |                5 |             14 |
+|  AXI4_Lite_ACLK_IBUF_BUFG | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/top_rd_enb  | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_axi_lite_modul/rstx     |               12 |             22 |
+|  IPCORE_CLK_IBUF_BUFG     | Uwatermark_ip_axi_lite_inst/Uwatermark_ip_addr_decoder_i/dut_enable  | Uwatermark_ip_reset_sync_ins/AR[0]                                |               11 |             33 |
++---------------------------+----------------------------------------------------------------------+-------------------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 5      |                     1 |
+| 7      |                     1 |
+| 8      |                     3 |
+| 11     |                     1 |
+| 14     |                     1 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

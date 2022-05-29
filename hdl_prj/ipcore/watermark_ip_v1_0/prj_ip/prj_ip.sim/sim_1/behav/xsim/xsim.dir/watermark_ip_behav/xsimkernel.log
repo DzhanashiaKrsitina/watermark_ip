@@ -1,0 +1,4 @@
+Running: xsim.dir/watermark_ip_behav/xsimk.exe -simmode gui -wdb watermark_ip_behav.wdb -simrunnum 0 -socket 49614
+Design successfully loaded
+Design Loading Memory Usage: 7484 KB (Peak: 7484 KB)
+Design Loading CPU Usage: 93 ms

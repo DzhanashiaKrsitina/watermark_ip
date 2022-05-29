@@ -1,0 +1,28 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_reset_sync.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_reset_sync
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_src_Bit_Divider_block.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_src_Bit_Divider_block
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_src_Bit_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_src_Bit_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_src_Index_Defin.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_src_Index_Defin
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_src_ROM_Templat.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_src_ROM_Templat
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_src_ROM_Templat_block.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_src_ROM_Templat_block
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_src_SimpleDualP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_src_SimpleDualP
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_src_Indexing.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_src_Indexing
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_src_waterma.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_src_waterma
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_dut.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_dut
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_addr_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_addr_decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_axi_lite_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_axi_lite_module
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip_axi_lite.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip_axi_lite
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/MATLAB/Examples/ComputeNegativeImageExample/hdl_prj/ipcore/watermark_ip_v1_0/hdl/vhdl/watermark_ip.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity watermark_ip

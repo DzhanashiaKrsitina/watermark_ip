@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../hdl/vhdl/watermark_ip_reset_sync.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_src_Bit_Divider_block.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_src_Bit_Divider.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_src_Index_Defin.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_src_ROM_Templat.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_src_ROM_Templat_block.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_src_SimpleDualP.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_src_Indexing.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_src_waterma.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_dut.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_addr_decoder.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_axi_lite_module.vhd" \
+"../../../../../hdl/vhdl/watermark_ip_axi_lite.vhd" \
+"../../../../../hdl/vhdl/watermark_ip.vhd" \
+
+# Do not sort compile order
+nosort

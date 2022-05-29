@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1652374478">
+  <File Type="PWROPT-DCP" Name="watermark_ip_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="watermark_ip_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="watermark_ip.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="watermark_ip_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="watermark_ip_reports.tcl"/>
+  <File Type="BG-DRC" Name="watermark_ip.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="watermark_ip_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="watermark_ip_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="watermark_ip.hwdef"/>
+  <File Type="OPT-DCP" Name="watermark_ip_opt.dcp"/>
+  <File Type="OPT-DRC" Name="watermark_ip_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="watermark_ip_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="watermark_ip_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="watermark_ip_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="watermark_ip_placed.dcp"/>
+  <File Type="PLACE-IO" Name="watermark_ip_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="watermark_ip_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="watermark_ip_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="watermark_ip_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="watermark_ip_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="watermark_ip_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="watermark_ip_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="watermark_ip_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="watermark_ip_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="watermark_ip_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="watermark_ip_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="watermark_ip_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="watermark_ip.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="watermark_ip_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="watermark_ip_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="watermark_ip_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="watermark_ip_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="watermark_ip_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="watermark_ip_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="watermark_ip.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="watermark_ip_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="watermark_ip.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="watermark_ip_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="watermark_ip.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="watermark_ip_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="watermark_ip.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="watermark_ip_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="watermark_ip_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="watermark_ip_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="watermark_ip_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="watermark_ip_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="watermark_ip_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="watermark_ip_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="watermark_ip_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="watermark_ip.vdi"/>
+  <File Type="ROUTE-CLK" Name="watermark_ip_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="watermark_ip_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="watermark_ip_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="watermark_ip_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="watermark_ip_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="watermark_ip_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="watermark_ip.nky"/>
+  <File Type="BITSTR-BMM" Name="watermark_ip_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="watermark_ip.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="watermark_ip.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="watermark_ip.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_reset_sync.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_src_Bit_Divider_block.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_src_Bit_Divider.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_src_Index_Defin.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_src_ROM_Templat.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_src_ROM_Templat_block.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_src_SimpleDualP.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_src_Indexing.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_src_waterma.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_dut.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_addr_decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_axi_lite_module.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip_axi_lite.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../hdl/vhdl/watermark_ip.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="watermark_ip"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
